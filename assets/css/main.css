@@ -88,14 +88,14 @@
 	}
 
 	.column-pic {
-    	flex: 30%;
+    	-webkit-flex: 30%;
     	padding: 10px;
 	}
 	.column-text{
-    	flex: 70%;
+    	-webkit-flex: 70%;
     	padding: 10px;
-    	align-self: safe center;
-    	justify-content:center;
+    	flex-align-self: safe center;
+    	flex-justify-content:center;
     	line-height: 1.5em
 	}
 
@@ -239,7 +239,7 @@
 	}
 
 	.row > * {
-		display: flex;
+		display: -webkit-flex;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
