@@ -47,10 +47,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-	.column {
-    	float: left;
-    	width: 40%;
-	}
+	
 
 
 /* Box Model */
@@ -91,16 +88,15 @@
 	}
 
 	.column-pic {
-    	float: left;
-    	width: 35%;
+    	flex: 30%;
     	padding: 10px;
 	}
 	.column-text{
-    	float: right;
-    	width: 65%;
+    	flex: 70%;
     	padding: 10px;
-    	vertical-align: -2em;
-    	line-height: 1.15em
+    	align-self: safe center;
+    	justify-content:center;
+    	line-height: 1.5em
 	}
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -243,7 +239,7 @@
 	}
 
 	.row > * {
-		float: left;
+		display: flex;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -1650,7 +1646,7 @@
 		color: #666;
 	}
 	b{
-		font-size: .9em;
+		font-size: 1em;
 	}
 	em, i {
 		font-style: italic;
@@ -2218,6 +2214,9 @@
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+			#main > section.five {
+				background-color: #F1F6F5;
 			}
 
 /* Wide */
