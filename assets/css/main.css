@@ -47,6 +47,11 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	.column {
+    	float: left;
+    	width: 40%;
+	}
+
 
 /* Box Model */
 
@@ -83,6 +88,19 @@
 
 	.container {
 		width: 1400px;
+	}
+
+	.column-pic {
+    	float: left;
+    	width: 35%;
+    	padding: 10px;
+	}
+	.column-text{
+    	float: right;
+    	width: 65%;
+    	padding: 10px;
+    	vertical-align: -2em;
+    	line-height: 1.15em
 	}
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -458,7 +476,7 @@
 	}
 
 	.\-4u {
-		margin-left: 33.33333%;
+		margin-left: 0%;
 	}
 
 	.\-3u {
@@ -671,7 +689,7 @@
 		}
 
 		.\-4u\28wide\29 {
-			margin-left: 33.33333%;
+			margin-left: 0%;
 		}
 
 		.\-3u\28wide\29 {
@@ -886,7 +904,7 @@
 		}
 
 		.\-4u\28normal\29 {
-			margin-left: 33.33333%;
+			margin-left: 0%;
 		}
 
 		.\-3u\28normal\29 {
@@ -1101,7 +1119,7 @@
 		}
 
 		.\-4u\28narrow\29 {
-			margin-left: 33.33333%;
+			margin-left: 0%;
 		}
 
 		.\-3u\28narrow\29 {
@@ -1316,7 +1334,7 @@
 		}
 
 		.\-4u\28narrower\29 {
-			margin-left: 33.33333%;
+			margin-left: 0%;
 		}
 
 		.\-3u\28narrower\29 {
@@ -1531,7 +1549,7 @@
 		}
 
 		.\-4u\28mobile\29 {
-			margin-left: 33.33333%;
+			margin-left: 0%;
 		}
 
 		.\-3u\28mobile\29 {
@@ -1594,7 +1612,7 @@
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 2.5em;
 		letter-spacing: -1px;
 	}
 
@@ -1604,18 +1622,23 @@
 
 			h2.alt strong {
 				color: #666;
+				font-weight: 500;
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.9em;
+	}
+
+	p{
+		font-size: 1.18em;
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 		header > p {
-			margin: 1em 0 0 0;
+			margin: 1.5em 0 0 0;
 		}
 
 	footer {
@@ -1626,7 +1649,9 @@
 		font-weight: 300;
 		color: #666;
 	}
-
+	b{
+		font-size: .9em;
+	}
 	em, i {
 		font-style: italic;
 	}
@@ -1642,10 +1667,7 @@
 		outline: 0;
 	}
 
-		a:hover {
-			color: #E27689;
-			border-bottom-color: rgba(255, 255, 255, 0);
-		}
+		
 
 	sub {
 		position: relative;
@@ -1671,7 +1693,7 @@
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 1.75em;
 	}
 
 	br.clear {
@@ -2140,7 +2162,7 @@
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		margin-left:  100px;
 	}
 
 		#main > section {
